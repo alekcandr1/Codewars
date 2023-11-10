@@ -1,8 +1,13 @@
 function noSpace(x) {
-    let y = x.indexOf(' ');
-    for (let i = 0; y >= 0; y = x.indexOf(' ')) {
-        x = x.replace(' ', '');
-    }
-    return x;
+    return x.replaceAll(' ', '');
 }
 noSpace('a b c    d');
+
+
+
+
+
+//
+// function noSpace(x){
+//     return x.replace(/ /g, '');
+//   }
