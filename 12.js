@@ -1,7 +1,7 @@
 
 function createPhoneNumber(numbers){
     const toString = numbers.join('')
-    const correctFormNumber = `(${toString.slice(0, 3)}) ${toString.slice(3, 6)}-${toString.slice(6, 10)}`
+    const correctFormNumber = `(${toString.slice(0, 3)}) ${toString.slice(3, 6)}-${toString.slice(6, 10)}`;
 
     return correctFormNumber
 }
