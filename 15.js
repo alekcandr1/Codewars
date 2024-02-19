@@ -8,3 +8,4 @@ function solution(str){
 }
 
 console.log(solution('abcde'))
+console.log(solution('abcde'))
