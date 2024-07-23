@@ -1,6 +1,6 @@
-var countSheep = function (num){
+var countSheep = function (num) {
     let res = ''
-    for(let i = 1; i<=num; i++) {
+    for (let i = 1; i <= num; i++) {
         res += `${i} sheep...`
     }
     return res
