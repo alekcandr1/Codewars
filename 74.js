@@ -8,6 +8,4 @@ function removeEveryOther(arr) {
     return newArr
 }
 
-console.log(!2%2)
-
 console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']))
