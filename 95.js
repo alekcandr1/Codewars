@@ -1,9 +1,5 @@
 function oddCount(n) {
-    const arr = []
-    for (let i = 1; i < n; i++) {
-        i % 2 !== 0 && arr.push(i)
-    }
-    return arr.length
+    return Math.floor(n / 2);
 }
 
 console.log(oddCount(15))
