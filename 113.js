@@ -4,6 +4,7 @@ function expressionMatter(a, b, c) {
     answers.push(a * b * c)
     answers.push(a + b * c)
     answers.push((a + b) * c)
+    answers.push(a + b + c)
     return Math.max.apply(null, answers);
 }
 
