@@ -1,3 +1,3 @@
 function binToDec(bin) {
-    return parseInt(binaryString, 2)
+    return parseInt(bin, 2)
 }
